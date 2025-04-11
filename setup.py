@@ -5,7 +5,7 @@ setup(
     version='0.1.0',
     author='Chandan Chaudhari',
     author_email='chaudhari.chandan22@gmail.com',
-    description='An MLOps-ready package for Crop Recommendation using ML',
+    description='An MLOps-ready package for Cement Composite Strength Prediction using ML',
     long_description=open('README.md').read(),
     long_description_content_type='text/markdown',
     url='https://github.com/yourusername/crop_recommendation',
