@@ -1,0 +1,1618 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>b39fa3dafc28490e95a6617405aedb10</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { color: #008000; } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { color: #008000; font-weight: bold; } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section
+id="cement-composite-strength-prediction-model-using-machine-learning-technique"
+class="cell markdown">
+<h3><strong>Cement Composite Strength Prediction Model USing Machine
+Learning Technique</strong></h3>
+</section>
+<section id="author-chandan-d-chaudhari" class="cell markdown">
+<h5><strong>Author: Chandan D. Chaudhari</strong></h5>
+</section>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Importing Data Manipulation Libraries</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Import Data Visualization Libraries</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> seaborn <span class="im">as</span> sns </span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt </span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Import Filter Warning Libraries</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> warnings</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>warnings.filterwarnings(<span class="st">&#39;ignore&#39;</span>)</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Import Logging</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> logging</span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>logging.basicConfig(level <span class="op">=</span> logging.INFO,</span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a>                    <span class="bu">format</span> <span class="op">=</span> <span class="st">&#39;</span><span class="sc">%(asctime)s</span><span class="st"> - </span><span class="sc">%(levelname)s</span><span class="st"> - </span><span class="sc">%(message)s</span><span class="st">&#39;</span>,</span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a>                    filemode <span class="op">=</span> <span class="st">&#39;w&#39;</span>,</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>                    filename <span class="op">=</span> <span class="st">&#39;model.log&#39;</span>,force <span class="op">=</span> <span class="va">True</span>)</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Import Scikit Learn Libraries for Machine Learning Model Building</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.preprocessing <span class="im">import</span> MinMaxScaler</span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.model_selection <span class="im">import</span> train_test_split,cross_val_score,GridSearchCV,learning_curve,KFold</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.metrics <span class="im">import</span> mean_squared_error,mean_absolute_error,r2_score</span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.linear_model <span class="im">import</span> LinearRegression,Lasso,Ridge</span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.tree <span class="im">import</span> DecisionTreeRegressor</span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.svm <span class="im">import</span> SVR</span>
+<span id="cb1-23"><a href="#cb1-23" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.neighbors <span class="im">import</span> KNeighborsRegressor</span>
+<span id="cb1-24"><a href="#cb1-24" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.ensemble <span class="im">import</span> RandomForestRegressor, AdaBoostRegressor, GradientBoostingRegressor</span>
+<span id="cb1-25"><a href="#cb1-25" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> xgboost</span>
+<span id="cb1-26"><a href="#cb1-26" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> xgboost <span class="im">import</span> XGBRegressor</span>
+<span id="cb1-27"><a href="#cb1-27" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.cluster <span class="im">import</span> KMeans</span>
+<span id="cb1-28"><a href="#cb1-28" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-29"><a href="#cb1-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-30"><a href="#cb1-30" aria-hidden="true" tabindex="-1"></a><span class="co"># Multicolinearity test and treatment libraries</span></span>
+<span id="cb1-31"><a href="#cb1-31" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> statsmodels.stats.outliers_influence <span class="im">import</span> variance_inflation_factor</span>
+<span id="cb1-32"><a href="#cb1-32" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sklearn.decomposition <span class="im">import</span> PCA</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating Our First Log</span></span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>logging.info(<span class="st">&#39;Import Dataset For Model Building...&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Uploading Dataset Using Pandas Function</span></span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a><span class="co"># Url Taken from Github </span></span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>url <span class="op">=</span> <span class="st">&#39;https://raw.githubusercontent.com/chandanc5525/EnE_CementCompositeStrength_Model/refs/heads/main/notebooks/Concrete_Data.csv&#39;</span></span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_csv(url)</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>df.sample(frac <span class="op">=</span> <span class="dv">1</span>)  <span class="co"># Shuffle Dataset</span></span></code></pre></div>
+<div class="output execute_result" data-execution_count="3">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Cement (component 1)(kg in a m^3 mixture)</th>
+      <th>Blast Furnace Slag (component 2)(kg in a m^3 mixture)</th>
+      <th>Fly Ash (component 3)(kg in a m^3 mixture)</th>
+      <th>Water  (component 4)(kg in a m^3 mixture)</th>
+      <th>Superplasticizer (component 5)(kg in a m^3 mixture)</th>
+      <th>Coarse Aggregate  (component 6)(kg in a m^3 mixture)</th>
+      <th>Fine Aggregate (component 7)(kg in a m^3 mixture)</th>
+      <th>Age (day)</th>
+      <th>Concrete compressive strength(MPa, megapascals)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>837</th>
+      <td>374.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>190.0</td>
+      <td>7.0</td>
+      <td>1013.0</td>
+      <td>730.0</td>
+      <td>28</td>
+      <td>39.05</td>
+    </tr>
+    <tr>
+      <th>937</th>
+      <td>313.3</td>
+      <td>0.0</td>
+      <td>113.0</td>
+      <td>178.5</td>
+      <td>8.0</td>
+      <td>1001.9</td>
+      <td>688.7</td>
+      <td>28</td>
+      <td>36.80</td>
+    </tr>
+    <tr>
+      <th>51</th>
+      <td>190.0</td>
+      <td>190.0</td>
+      <td>0.0</td>
+      <td>228.0</td>
+      <td>0.0</td>
+      <td>932.0</td>
+      <td>670.0</td>
+      <td>180</td>
+      <td>46.93</td>
+    </tr>
+    <tr>
+      <th>167</th>
+      <td>475.0</td>
+      <td>118.8</td>
+      <td>0.0</td>
+      <td>181.1</td>
+      <td>8.9</td>
+      <td>852.1</td>
+      <td>781.5</td>
+      <td>91</td>
+      <td>74.19</td>
+    </tr>
+    <tr>
+      <th>860</th>
+      <td>314.0</td>
+      <td>0.0</td>
+      <td>113.0</td>
+      <td>170.0</td>
+      <td>10.0</td>
+      <td>925.0</td>
+      <td>783.0</td>
+      <td>28</td>
+      <td>38.46</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>965</th>
+      <td>330.5</td>
+      <td>169.6</td>
+      <td>0.0</td>
+      <td>194.9</td>
+      <td>8.1</td>
+      <td>811.0</td>
+      <td>802.3</td>
+      <td>28</td>
+      <td>56.62</td>
+    </tr>
+    <tr>
+      <th>339</th>
+      <td>297.2</td>
+      <td>0.0</td>
+      <td>117.5</td>
+      <td>174.8</td>
+      <td>9.5</td>
+      <td>1022.8</td>
+      <td>753.5</td>
+      <td>3</td>
+      <td>21.91</td>
+    </tr>
+    <tr>
+      <th>124</th>
+      <td>388.6</td>
+      <td>97.1</td>
+      <td>0.0</td>
+      <td>157.9</td>
+      <td>12.1</td>
+      <td>852.1</td>
+      <td>925.7</td>
+      <td>28</td>
+      <td>50.70</td>
+    </tr>
+    <tr>
+      <th>606</th>
+      <td>236.0</td>
+      <td>0.0</td>
+      <td>0.0</td>
+      <td>194.0</td>
+      <td>0.0</td>
+      <td>968.0</td>
+      <td>885.0</td>
+      <td>14</td>
+      <td>12.84</td>
+    </tr>
+    <tr>
+      <th>882</th>
+      <td>140.0</td>
+      <td>133.0</td>
+      <td>103.0</td>
+      <td>200.0</td>
+      <td>7.0</td>
+      <td>916.0</td>
+      <td>753.0</td>
+      <td>28</td>
+      <td>36.44</td>
+    </tr>
+  </tbody>
+</table>
+<p>1030 rows × 9 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb4"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating Our First Log</span></span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a>logging.info(<span class="st">&#39;Dataset Imported Successfully For Model Building...&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb5"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking Dataset Information</span></span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>df.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 1030 entries, 0 to 1029
+Data columns (total 9 columns):
+ #   Column                                                 Non-Null Count  Dtype  
+---  ------                                                 --------------  -----  
+ 0   Cement (component 1)(kg in a m^3 mixture)              1030 non-null   float64
+ 1   Blast Furnace Slag (component 2)(kg in a m^3 mixture)  1030 non-null   float64
+ 2   Fly Ash (component 3)(kg in a m^3 mixture)             1030 non-null   float64
+ 3   Water  (component 4)(kg in a m^3 mixture)              1030 non-null   float64
+ 4   Superplasticizer (component 5)(kg in a m^3 mixture)    1030 non-null   float64
+ 5   Coarse Aggregate  (component 6)(kg in a m^3 mixture)   1030 non-null   float64
+ 6   Fine Aggregate (component 7)(kg in a m^3 mixture)      1030 non-null   float64
+ 7   Age (day)                                              1030 non-null   int64  
+ 8   Concrete compressive strength(MPa, megapascals)        1030 non-null   float64
+dtypes: float64(8), int64(1)
+memory usage: 72.6 KB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb7"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> collections <span class="im">import</span> OrderedDict</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>stats <span class="op">=</span> []</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a><span class="co"># Descriptive statistics</span></span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> df.columns:</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> df[col].dtype <span class="op">!=</span> <span class="st">&#39;object&#39;</span>:</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>        numerical_stats <span class="op">=</span> OrderedDict({</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Feature&#39;</span>: col,</span>
+<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Minimum&#39;</span>: df[col].<span class="bu">min</span>(),</span>
+<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Maximum&#39;</span>: df[col].<span class="bu">max</span>(),</span>
+<span id="cb7-12"><a href="#cb7-12" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Mean&#39;</span>: df[col].mean(),</span>
+<span id="cb7-13"><a href="#cb7-13" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Mode&#39;</span>: df[col].mode()[<span class="dv">0</span>] <span class="cf">if</span> <span class="kw">not</span> df[col].mode().empty <span class="cf">else</span> <span class="va">None</span>,</span>
+<span id="cb7-14"><a href="#cb7-14" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;25%&#39;</span>: df[col].quantile(<span class="fl">0.25</span>),</span>
+<span id="cb7-15"><a href="#cb7-15" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;75%&#39;</span>: df[col].quantile(<span class="fl">0.75</span>),</span>
+<span id="cb7-16"><a href="#cb7-16" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;IQR&#39;</span>: df[col].quantile(<span class="fl">0.75</span>) <span class="op">-</span> df[col].quantile(<span class="fl">0.25</span>),</span>
+<span id="cb7-17"><a href="#cb7-17" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Standard Deviation&#39;</span>: df[col].std(),</span>
+<span id="cb7-18"><a href="#cb7-18" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Skewness&#39;</span>: df[col].skew(),</span>
+<span id="cb7-19"><a href="#cb7-19" aria-hidden="true" tabindex="-1"></a>            <span class="st">&#39;Kurtosis&#39;</span>: df[col].kurt()</span>
+<span id="cb7-20"><a href="#cb7-20" aria-hidden="true" tabindex="-1"></a>        })</span>
+<span id="cb7-21"><a href="#cb7-21" aria-hidden="true" tabindex="-1"></a>        stats.append(numerical_stats)</span>
+<span id="cb7-22"><a href="#cb7-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-23"><a href="#cb7-23" aria-hidden="true" tabindex="-1"></a><span class="co"># Convert to DataFrame</span></span>
+<span id="cb7-24"><a href="#cb7-24" aria-hidden="true" tabindex="-1"></a>report <span class="op">=</span> pd.DataFrame(stats)</span>
+<span id="cb7-25"><a href="#cb7-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-26"><a href="#cb7-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Outlier Identification :</span></span>
+<span id="cb7-27"><a href="#cb7-27" aria-hidden="true" tabindex="-1"></a>outlier_label <span class="op">=</span> []</span>
+<span id="cb7-28"><a href="#cb7-28" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> report[<span class="st">&#39;Feature&#39;</span>]:</span>
+<span id="cb7-29"><a href="#cb7-29" aria-hidden="true" tabindex="-1"></a>    Q1 <span class="op">=</span> df[col].quantile(<span class="fl">0.25</span>)</span>
+<span id="cb7-30"><a href="#cb7-30" aria-hidden="true" tabindex="-1"></a>    Q3 <span class="op">=</span> df[col].quantile(<span class="fl">0.75</span>)</span>
+<span id="cb7-31"><a href="#cb7-31" aria-hidden="true" tabindex="-1"></a>    IQR <span class="op">=</span> Q3 <span class="op">-</span> Q1</span>
+<span id="cb7-32"><a href="#cb7-32" aria-hidden="true" tabindex="-1"></a>    LW <span class="op">=</span> Q1 <span class="op">-</span> <span class="fl">1.5</span> <span class="op">*</span> IQR   <span class="co"># LW : Lower Whisker Line</span></span>
+<span id="cb7-33"><a href="#cb7-33" aria-hidden="true" tabindex="-1"></a>    UW <span class="op">=</span> Q3 <span class="op">+</span> <span class="fl">1.5</span> <span class="op">*</span> IQR   <span class="co"># UW : Upper Whisker Line</span></span>
+<span id="cb7-34"><a href="#cb7-34" aria-hidden="true" tabindex="-1"></a>    outliers <span class="op">=</span> df[(df[col] <span class="op">&lt;</span> LW) <span class="op">|</span> (df[col] <span class="op">&gt;</span> UW)]</span>
+<span id="cb7-35"><a href="#cb7-35" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> <span class="kw">not</span> outliers.empty:</span>
+<span id="cb7-36"><a href="#cb7-36" aria-hidden="true" tabindex="-1"></a>        outlier_label.append(<span class="st">&quot;Has Outliers&quot;</span>)</span>
+<span id="cb7-37"><a href="#cb7-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb7-38"><a href="#cb7-38" aria-hidden="true" tabindex="-1"></a>        outlier_label.append(<span class="st">&quot;No Outliers&quot;</span>)</span>
+<span id="cb7-39"><a href="#cb7-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-40"><a href="#cb7-40" aria-hidden="true" tabindex="-1"></a>report[<span class="st">&quot;Outlier Comment&quot;</span>] <span class="op">=</span> outlier_label</span>
+<span id="cb7-41"><a href="#cb7-41" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb7-42"><a href="#cb7-42" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking Report</span></span>
+<span id="cb7-43"><a href="#cb7-43" aria-hidden="true" tabindex="-1"></a>report</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Feature</th>
+      <th>Minimum</th>
+      <th>Maximum</th>
+      <th>Mean</th>
+      <th>Mode</th>
+      <th>25%</th>
+      <th>75%</th>
+      <th>IQR</th>
+      <th>Standard Deviation</th>
+      <th>Skewness</th>
+      <th>Kurtosis</th>
+      <th>Outlier Comment</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Cement (component 1)(kg in a m^3 mixture)</td>
+      <td>102.00</td>
+      <td>540.0</td>
+      <td>281.167864</td>
+      <td>362.6</td>
+      <td>192.375</td>
+      <td>350.000</td>
+      <td>157.625</td>
+      <td>104.506364</td>
+      <td>0.509481</td>
+      <td>-0.520652</td>
+      <td>No Outliers</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Blast Furnace Slag (component 2)(kg in a m^3 m...</td>
+      <td>0.00</td>
+      <td>359.4</td>
+      <td>73.895825</td>
+      <td>0.0</td>
+      <td>0.000</td>
+      <td>142.950</td>
+      <td>142.950</td>
+      <td>86.279342</td>
+      <td>0.800717</td>
+      <td>-0.508175</td>
+      <td>Has Outliers</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Fly Ash (component 3)(kg in a m^3 mixture)</td>
+      <td>0.00</td>
+      <td>200.1</td>
+      <td>54.188350</td>
+      <td>0.0</td>
+      <td>0.000</td>
+      <td>118.300</td>
+      <td>118.300</td>
+      <td>63.997004</td>
+      <td>0.537354</td>
+      <td>-1.328746</td>
+      <td>No Outliers</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Water  (component 4)(kg in a m^3 mixture)</td>
+      <td>121.80</td>
+      <td>247.0</td>
+      <td>181.567282</td>
+      <td>192.0</td>
+      <td>164.900</td>
+      <td>192.000</td>
+      <td>27.100</td>
+      <td>21.354219</td>
+      <td>0.074628</td>
+      <td>0.122082</td>
+      <td>Has Outliers</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Superplasticizer (component 5)(kg in a m^3 mix...</td>
+      <td>0.00</td>
+      <td>32.2</td>
+      <td>6.204660</td>
+      <td>0.0</td>
+      <td>0.000</td>
+      <td>10.200</td>
+      <td>10.200</td>
+      <td>5.973841</td>
+      <td>0.907203</td>
+      <td>1.411269</td>
+      <td>Has Outliers</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Coarse Aggregate  (component 6)(kg in a m^3 mi...</td>
+      <td>801.00</td>
+      <td>1145.0</td>
+      <td>972.918932</td>
+      <td>932.0</td>
+      <td>932.000</td>
+      <td>1029.400</td>
+      <td>97.400</td>
+      <td>77.753954</td>
+      <td>-0.040220</td>
+      <td>-0.599016</td>
+      <td>No Outliers</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Fine Aggregate (component 7)(kg in a m^3 mixture)</td>
+      <td>594.00</td>
+      <td>992.6</td>
+      <td>773.580485</td>
+      <td>594.0</td>
+      <td>730.950</td>
+      <td>824.000</td>
+      <td>93.050</td>
+      <td>80.175980</td>
+      <td>-0.253010</td>
+      <td>-0.102177</td>
+      <td>Has Outliers</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Age (day)</td>
+      <td>1.00</td>
+      <td>365.0</td>
+      <td>45.662136</td>
+      <td>28.0</td>
+      <td>7.000</td>
+      <td>56.000</td>
+      <td>49.000</td>
+      <td>63.169912</td>
+      <td>3.269177</td>
+      <td>12.168989</td>
+      <td>Has Outliers</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>Concrete compressive strength(MPa, megapascals)</td>
+      <td>2.33</td>
+      <td>82.6</td>
+      <td>35.817961</td>
+      <td>33.4</td>
+      <td>23.710</td>
+      <td>46.135</td>
+      <td>22.425</td>
+      <td>16.705742</td>
+      <td>0.416977</td>
+      <td>-0.313725</td>
+      <td>Has Outliers</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb8"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking BoxenPlot </span></span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">10</span>, <span class="dv">10</span>))</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>sns.boxenplot(data<span class="op">=</span> df)</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb8-5"><a href="#cb8-5" aria-hidden="true" tabindex="-1"></a>plt.xticks(rotation <span class="op">=</span> <span class="dv">90</span>)  </span>
+<span id="cb8-6"><a href="#cb8-6" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&quot;Boxen Plot of Numerical Features&quot;</span>)</span>
+<span id="cb8-7"><a href="#cb8-7" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb8-8"><a href="#cb8-8" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_6064d97688324472bf020f3ebe1c50af/52328c4507160450974b4dcf2622417f23e2162f.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb9"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Replace Outliers with Median Statergy</span></span>
+<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> col <span class="kw">in</span> df.select_dtypes(include<span class="op">=</span><span class="st">&#39;number&#39;</span>).columns:</span>
+<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a>    Q1 <span class="op">=</span> df[col].quantile(<span class="fl">0.25</span>)</span>
+<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>    Q3 <span class="op">=</span> df[col].quantile(<span class="fl">0.75</span>)</span>
+<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a>    IQR <span class="op">=</span> Q3 <span class="op">-</span> Q1</span>
+<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a>    lower_bound <span class="op">=</span> Q1 <span class="op">-</span> <span class="fl">1.5</span> <span class="op">*</span> IQR</span>
+<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>    upper_bound <span class="op">=</span> Q3 <span class="op">+</span> <span class="fl">1.5</span> <span class="op">*</span> IQR</span>
+<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>    <span class="co"># Identify outliers</span></span>
+<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>    outliers <span class="op">=</span> (df[col] <span class="op">&lt;</span> lower_bound) <span class="op">|</span> (df[col] <span class="op">&gt;</span> upper_bound)</span>
+<span id="cb9-13"><a href="#cb9-13" aria-hidden="true" tabindex="-1"></a>    outlier_count <span class="op">=</span> outliers.<span class="bu">sum</span>()</span>
+<span id="cb9-14"><a href="#cb9-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb9-15"><a href="#cb9-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> outlier_count <span class="op">&gt;</span> <span class="dv">0</span>:</span>
+<span id="cb9-16"><a href="#cb9-16" aria-hidden="true" tabindex="-1"></a>        replacement <span class="op">=</span> df[col].median()  </span>
+<span id="cb9-17"><a href="#cb9-17" aria-hidden="true" tabindex="-1"></a>        df.loc[outliers, col] <span class="op">=</span> replacement</span>
+<span id="cb9-18"><a href="#cb9-18" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;Replaced </span><span class="sc">{</span>outlier_count<span class="sc">}</span><span class="ss"> outliers in &#39;</span><span class="sc">{</span>col<span class="sc">}</span><span class="ss">&#39; with median.&quot;</span>)</span>
+<span id="cb9-19"><a href="#cb9-19" aria-hidden="true" tabindex="-1"></a>    <span class="cf">else</span>:</span>
+<span id="cb9-20"><a href="#cb9-20" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="ss">f&quot;No outliers found in &#39;</span><span class="sc">{</span>col<span class="sc">}</span><span class="ss">&#39;.&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>No outliers found in &#39;Cement (component 1)(kg in a m^3 mixture)&#39;.
+Replaced 2 outliers in &#39;Blast Furnace Slag (component 2)(kg in a m^3 mixture)&#39; with median.
+No outliers found in &#39;Fly Ash (component 3)(kg in a m^3 mixture)&#39;.
+Replaced 9 outliers in &#39;Water  (component 4)(kg in a m^3 mixture)&#39; with median.
+Replaced 10 outliers in &#39;Superplasticizer (component 5)(kg in a m^3 mixture)&#39; with median.
+No outliers found in &#39;Coarse Aggregate  (component 6)(kg in a m^3 mixture)&#39;.
+Replaced 5 outliers in &#39;Fine Aggregate (component 7)(kg in a m^3 mixture)&#39; with median.
+Replaced 59 outliers in &#39;Age (day)&#39; with median.
+Replaced 4 outliers in &#39;Concrete compressive strength(MPa, megapascals) &#39; with median.
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb11"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating Our First Log</span></span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>logging.info(<span class="st">&#39;Outlier Detection and Replacing of Outlier Activity Done Using IQR Method.&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="10">
+<div class="sourceCode" id="cb12"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Set figure size</span></span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">15</span>, <span class="dv">8</span>))</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a><span class="co"># Create boxplot for all numerical columns</span></span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>sns.boxplot(data<span class="op">=</span>df, orient<span class="op">=</span><span class="st">&#39;h&#39;</span>, palette<span class="op">=</span><span class="st">&#39;Set2&#39;</span>)</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Set title</span></span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Boxplot After Outlier Treatment&#39;</span>)</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_6064d97688324472bf020f3ebe1c50af/d9fc14d3861268e5838fc1cc27516952e463dfba.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="11">
+<div class="sourceCode" id="cb13"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking Correlation </span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>corr <span class="op">=</span> df.corr()</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>df.ax <span class="op">=</span> plt.subplots(figsize <span class="op">=</span> (<span class="dv">8</span>,<span class="dv">8</span>))</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>sns.heatmap(corr,annot <span class="op">=</span> <span class="va">True</span>,center <span class="op">=</span> <span class="va">True</span>,vmax<span class="op">=</span> <span class="dv">1</span>,vmin <span class="op">=</span> <span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>plt.title(<span class="st">&#39;Heatmap showing Coorelation Values:&#39;</span>)</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_6064d97688324472bf020f3ebe1c50af/1f2d5ad8ccb490950a80d01624073090f0bc6b70.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb14"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>df.columns</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<pre><code>Index([&#39;Cement (component 1)(kg in a m^3 mixture)&#39;,
+       &#39;Blast Furnace Slag (component 2)(kg in a m^3 mixture)&#39;,
+       &#39;Fly Ash (component 3)(kg in a m^3 mixture)&#39;,
+       &#39;Water  (component 4)(kg in a m^3 mixture)&#39;,
+       &#39;Superplasticizer (component 5)(kg in a m^3 mixture)&#39;,
+       &#39;Coarse Aggregate  (component 6)(kg in a m^3 mixture)&#39;,
+       &#39;Fine Aggregate (component 7)(kg in a m^3 mixture)&#39;, &#39;Age (day)&#39;,
+       &#39;Concrete compressive strength(MPa, megapascals) &#39;],
+      dtype=&#39;object&#39;)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="13">
+<div class="sourceCode" id="cb16"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Checking VIF:</span></span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> calculate_vif(dataset):</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a>    vif <span class="op">=</span> pd.DataFrame()</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a>    vif[<span class="st">&#39;features&#39;</span>] <span class="op">=</span> dataset.columns</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a>    vif[<span class="st">&#39;VIF_Values&#39;</span>] <span class="op">=</span> [variance_inflation_factor(dataset.values,i) <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(dataset.shape[<span class="dv">1</span>])]</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a>    vif[<span class="st">&#39;VIF_Values&#39;</span>] <span class="op">=</span> <span class="bu">round</span>(vif[<span class="st">&#39;VIF_Values&#39;</span>], <span class="dv">2</span>)</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>    vif <span class="op">=</span> vif.sort_values(by <span class="op">=</span> <span class="st">&#39;VIF_Values&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> (vif)</span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a>calculate_vif(df.drop(<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>,axis <span class="op">=</span> <span class="dv">1</span>))</span></code></pre></div>
+<div class="output execute_result" data-execution_count="13">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>features</th>
+      <th>VIF_Values</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>5</th>
+      <td>Coarse Aggregate  (component 6)(kg in a m^3 mi...</td>
+      <td>86.94</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Water  (component 4)(kg in a m^3 mixture)</td>
+      <td>81.96</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Fine Aggregate (component 7)(kg in a m^3 mixture)</td>
+      <td>68.66</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Cement (component 1)(kg in a m^3 mixture)</td>
+      <td>14.29</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Superplasticizer (component 5)(kg in a m^3 mix...</td>
+      <td>5.72</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Fly Ash (component 3)(kg in a m^3 mixture)</td>
+      <td>4.42</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Blast Furnace Slag (component 2)(kg in a m^3 m...</td>
+      <td>3.34</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Age (day)</td>
+      <td>2.37</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="14">
+<div class="sourceCode" id="cb17"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating Our First Log</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>logging.info(<span class="st">&#39;Correlation Matrix plotted and PCA Technique Started....&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="15">
+<div class="sourceCode" id="cb18"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Using PCA Concept:</span></span>
+<span id="cb18-2"><a href="#cb18-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-3"><a href="#cb18-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 1: Standardize the data</span></span>
+<span id="cb18-4"><a href="#cb18-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-5"><a href="#cb18-5" aria-hidden="true" tabindex="-1"></a>scaler <span class="op">=</span> MinMaxScaler()</span>
+<span id="cb18-6"><a href="#cb18-6" aria-hidden="true" tabindex="-1"></a>X_scaled <span class="op">=</span> scaler.fit_transform(df)</span>
+<span id="cb18-7"><a href="#cb18-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-8"><a href="#cb18-8" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 2: Determine number of components to retain 90% variance</span></span>
+<span id="cb18-9"><a href="#cb18-9" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-10"><a href="#cb18-10" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="dv">1</span>, df.shape[<span class="dv">1</span>] <span class="op">+</span> <span class="dv">1</span>):</span>
+<span id="cb18-11"><a href="#cb18-11" aria-hidden="true" tabindex="-1"></a>    pca <span class="op">=</span> PCA(n_components<span class="op">=</span>i)</span>
+<span id="cb18-12"><a href="#cb18-12" aria-hidden="true" tabindex="-1"></a>    pca.fit(X_scaled)</span>
+<span id="cb18-13"><a href="#cb18-13" aria-hidden="true" tabindex="-1"></a>    evr <span class="op">=</span> np.cumsum(pca.explained_variance_ratio_)</span>
+<span id="cb18-14"><a href="#cb18-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">if</span> evr[i <span class="op">-</span> <span class="dv">1</span>] <span class="op">&gt;=</span> <span class="fl">0.90</span>:</span>
+<span id="cb18-15"><a href="#cb18-15" aria-hidden="true" tabindex="-1"></a>        pcs <span class="op">=</span> i</span>
+<span id="cb18-16"><a href="#cb18-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">break</span></span>
+<span id="cb18-17"><a href="#cb18-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-18"><a href="#cb18-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Explained Variance Ratio:&quot;</span>, evr)</span>
+<span id="cb18-19"><a href="#cb18-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;Number of components selected:&quot;</span>, pcs)</span>
+<span id="cb18-20"><a href="#cb18-20" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-21"><a href="#cb18-21" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 3: Apply PCA</span></span>
+<span id="cb18-22"><a href="#cb18-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-23"><a href="#cb18-23" aria-hidden="true" tabindex="-1"></a>pca <span class="op">=</span> PCA(n_components<span class="op">=</span>pcs)</span>
+<span id="cb18-24"><a href="#cb18-24" aria-hidden="true" tabindex="-1"></a>pca_data <span class="op">=</span> pca.fit_transform(X_scaled)</span>
+<span id="cb18-25"><a href="#cb18-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-26"><a href="#cb18-26" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 4: Create DataFrame</span></span>
+<span id="cb18-27"><a href="#cb18-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-28"><a href="#cb18-28" aria-hidden="true" tabindex="-1"></a>pca_columns <span class="op">=</span> [<span class="ss">f&#39;PC</span><span class="sc">{</span>j<span class="op">+</span><span class="dv">1</span><span class="sc">}</span><span class="ss">&#39;</span> <span class="cf">for</span> j <span class="kw">in</span> <span class="bu">range</span>(pcs)]</span>
+<span id="cb18-29"><a href="#cb18-29" aria-hidden="true" tabindex="-1"></a>pca_df <span class="op">=</span> pd.DataFrame(pca_data, columns<span class="op">=</span>pca_columns)</span>
+<span id="cb18-30"><a href="#cb18-30" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-31"><a href="#cb18-31" aria-hidden="true" tabindex="-1"></a><span class="co"># Step 5: Join Target Column with PCA:</span></span>
+<span id="cb18-32"><a href="#cb18-32" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-33"><a href="#cb18-33" aria-hidden="true" tabindex="-1"></a>pca_df <span class="op">=</span> pca_df.join(df[<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>], how <span class="op">=</span> <span class="st">&#39;left&#39;</span>)</span>
+<span id="cb18-34"><a href="#cb18-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb18-35"><a href="#cb18-35" aria-hidden="true" tabindex="-1"></a>pca_df</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Explained Variance Ratio: [0.27922213 0.47591513 0.63302735 0.75476394 0.86410929 0.95852334]
+Number of components selected: 6
+</code></pre>
+</div>
+<div class="output execute_result" data-execution_count="15">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>PC1</th>
+      <th>PC2</th>
+      <th>PC3</th>
+      <th>PC4</th>
+      <th>PC5</th>
+      <th>PC6</th>
+      <th>Concrete compressive strength(MPa, megapascals)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>-0.370604</td>
+      <td>0.227445</td>
+      <td>-0.537088</td>
+      <td>-0.003894</td>
+      <td>-0.253639</td>
+      <td>0.163116</td>
+      <td>34.445</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>-0.381428</td>
+      <td>0.431252</td>
+      <td>-0.554946</td>
+      <td>-0.098776</td>
+      <td>-0.239169</td>
+      <td>0.197649</td>
+      <td>61.890</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>-0.630790</td>
+      <td>-0.073797</td>
+      <td>0.168205</td>
+      <td>-0.351106</td>
+      <td>-0.304745</td>
+      <td>-0.167294</td>
+      <td>40.270</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>-0.631105</td>
+      <td>-0.067734</td>
+      <td>0.168185</td>
+      <td>-0.353454</td>
+      <td>-0.304497</td>
+      <td>-0.167235</td>
+      <td>41.050</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>-0.303858</td>
+      <td>-0.119720</td>
+      <td>0.138778</td>
+      <td>0.050716</td>
+      <td>0.255380</td>
+      <td>0.010240</td>
+      <td>44.300</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>1025</th>
+      <td>0.156394</td>
+      <td>0.160053</td>
+      <td>0.253019</td>
+      <td>0.042591</td>
+      <td>-0.131460</td>
+      <td>-0.170938</td>
+      <td>44.280</td>
+    </tr>
+    <tr>
+      <th>1026</th>
+      <td>0.321856</td>
+      <td>0.065753</td>
+      <td>0.027292</td>
+      <td>0.141070</td>
+      <td>-0.191079</td>
+      <td>-0.499024</td>
+      <td>31.180</td>
+    </tr>
+    <tr>
+      <th>1027</th>
+      <td>0.217121</td>
+      <td>-0.242009</td>
+      <td>0.397681</td>
+      <td>-0.020291</td>
+      <td>-0.019839</td>
+      <td>-0.171280</td>
+      <td>23.700</td>
+    </tr>
+    <tr>
+      <th>1028</th>
+      <td>-0.105050</td>
+      <td>0.005853</td>
+      <td>0.382897</td>
+      <td>0.148551</td>
+      <td>0.162517</td>
+      <td>0.286277</td>
+      <td>32.770</td>
+    </tr>
+    <tr>
+      <th>1029</th>
+      <td>0.067432</td>
+      <td>-0.008507</td>
+      <td>0.253413</td>
+      <td>0.020573</td>
+      <td>-0.141171</td>
+      <td>-0.275830</td>
+      <td>32.400</td>
+    </tr>
+  </tbody>
+</table>
+<p>1030 rows × 7 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb20"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating Our First Log</span></span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>logging.info(<span class="st">&#39;Model Building Started............&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb21"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Model Building</span></span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> train_and_test_split(data, tcol, testSize<span class="op">=</span><span class="fl">0.3</span>, randomState<span class="op">=</span><span class="dv">3</span>):</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>    X <span class="op">=</span> data.drop(tcol,axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>    y <span class="op">=</span> data[tcol]</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> train_test_split(X,y,test_size <span class="op">=</span> testSize,random_state<span class="op">=</span>randomState)</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> model_builder(model_name, model, data, t_col):</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>    X_train,X_test,y_train,y_test <span class="op">=</span> train_and_test_split(data,t_col)</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>    model.fit(X_train,y_train)</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>    y_pred <span class="op">=</span> model.predict(X_test)</span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>    r2 <span class="op">=</span> r2_score(y_test, y_pred)</span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>    rmse <span class="op">=</span> np.sqrt(mean_squared_error(y_test,y_pred))</span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> [model_name, rmse, r2]</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> result</span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>model_builder(model_name<span class="op">=</span><span class="st">&#39;LinearRegression&#39;</span>,model<span class="op">=</span>LinearRegression(),data<span class="op">=</span>pca_df,t_col<span class="op">=</span><span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="17">
+<pre><code>[&#39;LinearRegression&#39;, 5.67766469871999, 0.8899623746061739]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb23"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> multiple_models(data, t_col):</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>    col_names<span class="op">=</span>[<span class="st">&#39;Model Name&#39;</span>,<span class="st">&#39;rmse&#39;</span>,<span class="st">&#39;r2_score&#39;</span>]</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> pd.DataFrame(columns <span class="op">=</span> col_names)</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>    result.loc[<span class="bu">len</span>(result)] <span class="op">=</span> model_builder(<span class="st">&#39;Linear Regression&#39;</span>,LinearRegression(),data,t_col)</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>    result.loc[<span class="bu">len</span>(result)] <span class="op">=</span> model_builder(<span class="st">&#39;Lasso&#39;</span>,Lasso(),data,t_col)</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>    result.loc[<span class="bu">len</span>(result)] <span class="op">=</span> model_builder(<span class="st">&#39;Ridge&#39;</span>,Ridge(),data,t_col)</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>    result.loc[<span class="bu">len</span>(result)] <span class="op">=</span> model_builder(<span class="st">&#39;Decision Tree&#39;</span>,DecisionTreeRegressor(),data,t_col)</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>    result.loc[<span class="bu">len</span>(result)] <span class="op">=</span> model_builder(<span class="st">&#39;SVR&#39;</span>,SVR(),data,t_col)</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>    result.loc[<span class="bu">len</span>(result)] <span class="op">=</span> model_builder(<span class="st">&#39;KNN&#39;</span>,KNeighborsRegressor(),data,t_col)</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>    result.loc[<span class="bu">len</span>(result)] <span class="op">=</span> model_builder(<span class="st">&#39;Random Forest&#39;</span>,RandomForestRegressor(),data,t_col)</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>    result.loc[<span class="bu">len</span>(result)] <span class="op">=</span> model_builder(<span class="st">&#39;Gradient Boost&#39;</span>,GradientBoostingRegressor(),data,t_col)</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>    result.loc[<span class="bu">len</span>(result)] <span class="op">=</span> model_builder(<span class="st">&#39;ADA Boost&#39;</span>,AdaBoostRegressor(),data,t_col)</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>    result.loc[<span class="bu">len</span>(result)] <span class="op">=</span> model_builder(<span class="st">&#39;XG Boost&#39;</span>,XGBRegressor(),data,t_col)</span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> result.sort_values(by <span class="op">=</span> <span class="st">&#39;r2_score&#39;</span>, ascending<span class="op">=</span><span class="va">False</span>)</span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>multiple_models(pca_df, <span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Model Name</th>
+      <th>rmse</th>
+      <th>r2_score</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>9</th>
+      <td>XG Boost</td>
+      <td>3.707997</td>
+      <td>0.953067</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Random Forest</td>
+      <td>4.167161</td>
+      <td>0.940724</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>Gradient Boost</td>
+      <td>4.382039</td>
+      <td>0.934453</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>KNN</td>
+      <td>5.652533</td>
+      <td>0.890934</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>ADA Boost</td>
+      <td>5.654131</td>
+      <td>0.890873</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Linear Regression</td>
+      <td>5.677665</td>
+      <td>0.889962</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Ridge</td>
+      <td>5.722516</td>
+      <td>0.888217</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Decision Tree</td>
+      <td>5.987399</td>
+      <td>0.877629</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>SVR</td>
+      <td>6.328422</td>
+      <td>0.863292</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Lasso</td>
+      <td>8.363783</td>
+      <td>0.761215</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb24"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> k_fold_cv(X, y , fold<span class="op">=</span> <span class="dv">10</span>):</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>    score_LR <span class="op">=</span> cross_val_score(LinearRegression(), X, y ,cv <span class="op">=</span> fold)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>    score_LS <span class="op">=</span> cross_val_score(Lasso(), X, y, cv <span class="op">=</span> fold)</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>    score_RD <span class="op">=</span> cross_val_score(Ridge(), X, y, cv <span class="op">=</span> fold)</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a>    score_DTR <span class="op">=</span> cross_val_score(DecisionTreeRegressor(), X, y, cv <span class="op">=</span> fold)</span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>    score_SVR <span class="op">=</span> cross_val_score(SVR(), X, y ,cv <span class="op">=</span> fold)</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>    score_KNN <span class="op">=</span> cross_val_score(KNeighborsRegressor(), X, y ,cv <span class="op">=</span> fold)</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>    score_RF <span class="op">=</span> cross_val_score(RandomForestRegressor(), X, y ,cv <span class="op">=</span> fold)</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>    score_GB <span class="op">=</span> cross_val_score(GradientBoostingRegressor(), X, y, cv <span class="op">=</span> fold)</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a>    score_ADA <span class="op">=</span> cross_val_score(AdaBoostRegressor(), X, y, cv <span class="op">=</span> fold)</span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a>    score_XG <span class="op">=</span> cross_val_score(XGBRegressor(), X, y, cv <span class="op">=</span> fold)</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a>    model_name <span class="op">=</span> [<span class="st">&#39;Linear Regression&#39;</span>,<span class="st">&#39;Lasso&#39;</span>,<span class="st">&#39;Ridge&#39;</span>,<span class="st">&#39;DTR&#39;</span>,<span class="st">&#39;SVR&#39;</span>,<span class="st">&#39;KNN&#39;</span>,<span class="st">&#39;Random Forest&#39;</span>,<span class="st">&#39;Gradient Boost&#39;</span>,<span class="st">&#39;ADA Boost&#39;</span>,<span class="st">&#39;XG&#39;</span> ]</span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a>    scores <span class="op">=</span> [score_LR,score_LS,score_RD,score_DTR,score_SVR,score_KNN,score_RF,score_GB,score_ADA,score_XG]</span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> []</span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(model_name)):</span>
+<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a>        score_mean <span class="op">=</span> np.mean(scores[i])</span>
+<span id="cb24-20"><a href="#cb24-20" aria-hidden="true" tabindex="-1"></a>        score_std <span class="op">=</span> np.std(scores[i])</span>
+<span id="cb24-21"><a href="#cb24-21" aria-hidden="true" tabindex="-1"></a>        m_name <span class="op">=</span> model_name[i]</span>
+<span id="cb24-22"><a href="#cb24-22" aria-hidden="true" tabindex="-1"></a>        temp <span class="op">=</span> [m_name,score_mean,score_std]</span>
+<span id="cb24-23"><a href="#cb24-23" aria-hidden="true" tabindex="-1"></a>        result.append(temp)</span>
+<span id="cb24-24"><a href="#cb24-24" aria-hidden="true" tabindex="-1"></a>    k_fold_df <span class="op">=</span> pd.DataFrame(result,columns <span class="op">=</span> [<span class="st">&#39;Model Name&#39;</span>,<span class="st">&#39;CV Accuracy&#39;</span>,<span class="st">&#39;CV STD&#39;</span>])</span>
+<span id="cb24-25"><a href="#cb24-25" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> k_fold_df.sort_values(<span class="st">&#39;CV Accuracy&#39;</span>,ascending<span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb24-26"><a href="#cb24-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-27"><a href="#cb24-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-28"><a href="#cb24-28" aria-hidden="true" tabindex="-1"></a>k_fold_cv(pca_df.drop(<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>,axis<span class="op">=</span><span class="dv">1</span>), pca_df[<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Model Name</th>
+      <th>CV Accuracy</th>
+      <th>CV STD</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>7</th>
+      <td>Gradient Boost</td>
+      <td>0.844288</td>
+      <td>0.150430</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>XG</td>
+      <td>0.832815</td>
+      <td>0.210426</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>Random Forest</td>
+      <td>0.823169</td>
+      <td>0.220226</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Linear Regression</td>
+      <td>0.800141</td>
+      <td>0.159829</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Ridge</td>
+      <td>0.800018</td>
+      <td>0.159464</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>ADA Boost</td>
+      <td>0.750126</td>
+      <td>0.202080</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>DTR</td>
+      <td>0.701252</td>
+      <td>0.310770</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>SVR</td>
+      <td>0.687752</td>
+      <td>0.183412</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>KNN</td>
+      <td>0.666863</td>
+      <td>0.264973</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Lasso</td>
+      <td>0.641080</td>
+      <td>0.263170</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb25"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb25-1"><a href="#cb25-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> tuning(X, y , fold <span class="op">=</span> <span class="dv">10</span>):</span>
+<span id="cb25-2"><a href="#cb25-2" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Generally we dont do hyperparameter tuning for all the models, becuase if we train lasso and ridge at max it will give.</span></span>
+<span id="cb25-3"><a href="#cb25-3" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Parameters Grid for tuning</span></span>
+<span id="cb25-4"><a href="#cb25-4" aria-hidden="true" tabindex="-1"></a>    param_LAS <span class="op">=</span> {<span class="st">&#39;alpha&#39;</span> : [<span class="fl">1e-15</span>, <span class="fl">1e-13</span>, <span class="fl">1e-11</span>, <span class="fl">1e-9</span>,<span class="fl">1e-7</span>, <span class="fl">1e-5</span>,<span class="fl">1e-3</span>, <span class="fl">1e-1</span>, <span class="dv">0</span>,<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">6</span>,<span class="dv">7</span>,<span class="dv">8</span>,<span class="dv">9</span>,<span class="dv">10</span>,<span class="dv">20</span>,<span class="dv">30</span>,<span class="dv">40</span>,<span class="dv">50</span>,<span class="dv">60</span>,<span class="dv">70</span>,<span class="dv">80</span>,<span class="dv">90</span>,<span class="dv">100</span>,<span class="dv">200</span>,<span class="dv">300</span>,<span class="dv">400</span>,<span class="dv">500</span>]}</span>
+<span id="cb25-5"><a href="#cb25-5" aria-hidden="true" tabindex="-1"></a>    param_KNN <span class="op">=</span> {<span class="st">&#39;n_neighbors&#39;</span> : [<span class="dv">1</span>,<span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">6</span>,<span class="dv">7</span>,<span class="dv">8</span>,<span class="dv">9</span>,<span class="dv">10</span>,<span class="dv">20</span>,<span class="dv">30</span>,<span class="dv">40</span>,<span class="dv">50</span>,<span class="dv">60</span>,<span class="dv">70</span>,<span class="dv">80</span>,<span class="dv">90</span>,<span class="dv">100</span>]}</span>
+<span id="cb25-6"><a href="#cb25-6" aria-hidden="true" tabindex="-1"></a>    param_DTR <span class="op">=</span> {<span class="st">&#39;max_depth&#39;</span> : [<span class="dv">3</span>,<span class="dv">5</span>,<span class="dv">7</span>,<span class="dv">9</span>,<span class="dv">10</span>,<span class="dv">12</span>,<span class="dv">14</span>,<span class="dv">16</span>] , <span class="st">&#39;max_features&#39;</span> : [<span class="st">&#39;auto&#39;</span>, <span class="st">&#39;log2&#39;</span>, <span class="st">&#39;sqrt&#39;</span>, <span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">6</span>]}</span>
+<span id="cb25-7"><a href="#cb25-7" aria-hidden="true" tabindex="-1"></a>    param_SVR <span class="op">=</span> {<span class="st">&#39;gamma&#39;</span> : [<span class="st">&#39;scale&#39;</span> , <span class="st">&#39;auto&#39;</span>], <span class="st">&#39;C&#39;</span> : [<span class="fl">0.5</span> , <span class="dv">1</span>]}</span>
+<span id="cb25-8"><a href="#cb25-8" aria-hidden="true" tabindex="-1"></a>    param_ADB <span class="op">=</span> {<span class="st">&#39;learning_rate&#39;</span> : [<span class="fl">0.1</span>,<span class="fl">0.2</span>,<span class="fl">0.3</span>,<span class="fl">0.4</span>,<span class="fl">0.5</span>,<span class="fl">0.6</span>,<span class="fl">0.7</span>,<span class="fl">0.8</span>,<span class="fl">0.9</span>,<span class="dv">1</span>]}</span>
+<span id="cb25-9"><a href="#cb25-9" aria-hidden="true" tabindex="-1"></a>    param_GB <span class="op">=</span> {<span class="st">&#39;alpha&#39;</span> : [<span class="fl">0.1</span>,<span class="fl">0.3</span>,<span class="fl">0.5</span>,<span class="fl">0.9</span>]}</span>
+<span id="cb25-10"><a href="#cb25-10" aria-hidden="true" tabindex="-1"></a>    param_XGB <span class="op">=</span> {<span class="st">&#39;eta&#39;</span> : [<span class="fl">0.1</span>,<span class="fl">0.2</span>,<span class="fl">0.3</span>,<span class="fl">0.4</span>,<span class="fl">0.5</span>], <span class="st">&#39;max_depth&#39;</span> : [<span class="dv">3</span>,<span class="dv">5</span>,<span class="dv">7</span>,<span class="dv">9</span>,<span class="dv">10</span>,<span class="dv">12</span>,<span class="dv">14</span>,<span class="dv">15</span>,<span class="dv">16</span>], <span class="st">&#39;gamma&#39;</span> : [<span class="dv">0</span>,<span class="dv">10</span>,<span class="dv">20</span>,<span class="dv">30</span>,<span class="dv">40</span>,<span class="dv">50</span>,<span class="dv">60</span>,<span class="dv">70</span>,<span class="dv">80</span>,<span class="dv">90</span>,<span class="dv">100</span>,<span class="dv">200</span>,<span class="dv">300</span>,<span class="dv">400</span>,<span class="dv">500</span>], <span class="st">&#39;reg_lambda&#39;</span> : [<span class="dv">0</span>,<span class="dv">1</span>]}</span>
+<span id="cb25-11"><a href="#cb25-11" aria-hidden="true" tabindex="-1"></a>    param_RF <span class="op">=</span> {<span class="st">&#39;max_depth&#39;</span> : [<span class="dv">3</span>,<span class="dv">5</span>,<span class="dv">7</span>,<span class="dv">8</span>,<span class="dv">9</span>,<span class="dv">10</span>,<span class="dv">12</span>,<span class="dv">14</span>,<span class="dv">16</span>], <span class="st">&#39;max_features&#39;</span> : [<span class="st">&#39;auto&#39;</span>, <span class="st">&#39;log2&#39;</span>, <span class="st">&#39;sqrt&#39;</span>, <span class="dv">2</span>,<span class="dv">3</span>,<span class="dv">4</span>,<span class="dv">5</span>,<span class="dv">6</span>]}</span>
+<span id="cb25-12"><a href="#cb25-12" aria-hidden="true" tabindex="-1"></a><span class="co">#hyperparameter Tuning</span></span>
+<span id="cb25-13"><a href="#cb25-13" aria-hidden="true" tabindex="-1"></a>    tune_LAS <span class="op">=</span> GridSearchCV(Lasso(), param_LAS, cv <span class="op">=</span> fold)</span>
+<span id="cb25-14"><a href="#cb25-14" aria-hidden="true" tabindex="-1"></a>    tune_RID <span class="op">=</span> GridSearchCV(Ridge(), param_LAS , cv <span class="op">=</span> fold)</span>
+<span id="cb25-15"><a href="#cb25-15" aria-hidden="true" tabindex="-1"></a>    tune_KNN <span class="op">=</span> GridSearchCV(KNeighborsRegressor() , param_KNN , cv <span class="op">=</span> fold)</span>
+<span id="cb25-16"><a href="#cb25-16" aria-hidden="true" tabindex="-1"></a>    tune_DT <span class="op">=</span> GridSearchCV(DecisionTreeRegressor(), param_DTR , cv <span class="op">=</span> fold)</span>
+<span id="cb25-17"><a href="#cb25-17" aria-hidden="true" tabindex="-1"></a>    tune_SVR <span class="op">=</span> GridSearchCV(SVR(), param_SVR , cv <span class="op">=</span> fold)</span>
+<span id="cb25-18"><a href="#cb25-18" aria-hidden="true" tabindex="-1"></a>    tune_ADB <span class="op">=</span> GridSearchCV(AdaBoostRegressor() , param_ADB , cv <span class="op">=</span> fold)</span>
+<span id="cb25-19"><a href="#cb25-19" aria-hidden="true" tabindex="-1"></a>    tune_GB <span class="op">=</span> GridSearchCV(GradientBoostingRegressor() , param_GB , cv <span class="op">=</span> fold)</span>
+<span id="cb25-20"><a href="#cb25-20" aria-hidden="true" tabindex="-1"></a>    tune_XGB <span class="op">=</span> GridSearchCV(XGBRegressor() , param_XGB , cv <span class="op">=</span> fold)</span>
+<span id="cb25-21"><a href="#cb25-21" aria-hidden="true" tabindex="-1"></a>    tune_RF <span class="op">=</span> GridSearchCV(RandomForestRegressor() , param_RF , cv <span class="op">=</span> fold)</span>
+<span id="cb25-22"><a href="#cb25-22" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb25-23"><a href="#cb25-23" aria-hidden="true" tabindex="-1"></a>    <span class="co">#Fitting X and Y</span></span>
+<span id="cb25-24"><a href="#cb25-24" aria-hidden="true" tabindex="-1"></a>    tune_LAS.fit(X,y)</span>
+<span id="cb25-25"><a href="#cb25-25" aria-hidden="true" tabindex="-1"></a>    tune_RID.fit(X,y)</span>
+<span id="cb25-26"><a href="#cb25-26" aria-hidden="true" tabindex="-1"></a>    tune_KNN.fit(X,y)</span>
+<span id="cb25-27"><a href="#cb25-27" aria-hidden="true" tabindex="-1"></a>    tune_DT.fit(X,y)</span>
+<span id="cb25-28"><a href="#cb25-28" aria-hidden="true" tabindex="-1"></a>    tune_SVR.fit(X,y)</span>
+<span id="cb25-29"><a href="#cb25-29" aria-hidden="true" tabindex="-1"></a>    tune_ADB.fit(X,y)</span>
+<span id="cb25-30"><a href="#cb25-30" aria-hidden="true" tabindex="-1"></a>    tune_GB.fit(X,y)</span>
+<span id="cb25-31"><a href="#cb25-31" aria-hidden="true" tabindex="-1"></a>    tune_XGB.fit(X,y)</span>
+<span id="cb25-32"><a href="#cb25-32" aria-hidden="true" tabindex="-1"></a>    tune_RF.fit(X,y)</span>
+<span id="cb25-33"><a href="#cb25-33" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb25-34"><a href="#cb25-34" aria-hidden="true" tabindex="-1"></a>    tune <span class="op">=</span> [tune_LAS, tune_RID, tune_KNN, tune_DT, tune_SVR, tune_ADB, tune_GB, tune_XGB, tune_RF]</span>
+<span id="cb25-35"><a href="#cb25-35" aria-hidden="true" tabindex="-1"></a>    models <span class="op">=</span> [<span class="st">&#39;Lasso&#39;</span>, <span class="st">&#39;Ridge&#39;</span>, <span class="st">&#39;KNN&#39;</span> , <span class="st">&#39;DTR&#39;</span>, <span class="st">&#39;SVR&#39;</span> , <span class="st">&#39;ADBR&#39;</span>, <span class="st">&#39;GBR&#39;</span>, <span class="st">&#39;XGBR&#39;</span> , <span class="st">&#39;RFR&#39;</span>]</span>
+<span id="cb25-36"><a href="#cb25-36" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb25-37"><a href="#cb25-37" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(tune)):</span>
+<span id="cb25-38"><a href="#cb25-38" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">&#39;models:&#39;</span>, models[i])</span>
+<span id="cb25-39"><a href="#cb25-39" aria-hidden="true" tabindex="-1"></a>        <span class="bu">print</span>(<span class="st">&#39;best parameters :&#39;</span>, tune[i].best_params_)</span>
+<span id="cb25-40"><a href="#cb25-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb25-41"><a href="#cb25-41" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb25-42"><a href="#cb25-42" aria-hidden="true" tabindex="-1"></a>tuning(pca_df.drop(<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>,axis<span class="op">=</span><span class="dv">1</span>), pca_df[<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>])</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>models: Lasso
+best parameters : {&#39;alpha&#39;: 0.001}
+models: Ridge
+best parameters : {&#39;alpha&#39;: 0.1}
+models: KNN
+best parameters : {&#39;n_neighbors&#39;: 3}
+models: DTR
+best parameters : {&#39;max_depth&#39;: 16, &#39;max_features&#39;: 4}
+models: SVR
+best parameters : {&#39;C&#39;: 1, &#39;gamma&#39;: &#39;auto&#39;}
+models: ADBR
+best parameters : {&#39;learning_rate&#39;: 0.9}
+models: GBR
+best parameters : {&#39;alpha&#39;: 0.9}
+models: XGBR
+best parameters : {&#39;eta&#39;: 0.3, &#39;gamma&#39;: 0, &#39;max_depth&#39;: 3, &#39;reg_lambda&#39;: 1}
+models: RFR
+best parameters : {&#39;max_depth&#39;: 16, &#39;max_features&#39;: 5}
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb27"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb27-1"><a href="#cb27-1" aria-hidden="true" tabindex="-1"></a><span class="kw">def</span> cv_post_hpt(X,y, fold <span class="op">=</span> <span class="dv">5</span>):</span>
+<span id="cb27-2"><a href="#cb27-2" aria-hidden="true" tabindex="-1"></a>    score_LR <span class="op">=</span> cross_val_score(LinearRegression(), X, y, cv <span class="op">=</span> fold)</span>
+<span id="cb27-3"><a href="#cb27-3" aria-hidden="true" tabindex="-1"></a>    score_LS <span class="op">=</span> cross_val_score(Lasso(alpha <span class="op">=</span> <span class="fl">0.1</span>), X, y ,cv <span class="op">=</span> fold)</span>
+<span id="cb27-4"><a href="#cb27-4" aria-hidden="true" tabindex="-1"></a>    score_RD <span class="op">=</span> cross_val_score(Ridge(alpha <span class="op">=</span> <span class="dv">6</span> ), X , y , cv <span class="op">=</span> fold)</span>
+<span id="cb27-5"><a href="#cb27-5" aria-hidden="true" tabindex="-1"></a>    score_DTR <span class="op">=</span> cross_val_score(DecisionTreeRegressor(max_depth <span class="op">=</span> <span class="dv">16</span>), X , y , cv <span class="op">=</span> fold)</span>
+<span id="cb27-6"><a href="#cb27-6" aria-hidden="true" tabindex="-1"></a>    score_SVR<span class="op">=</span> cross_val_score(SVR(C <span class="op">=</span> <span class="dv">1</span>), X , y , cv <span class="op">=</span> fold)</span>
+<span id="cb27-7"><a href="#cb27-7" aria-hidden="true" tabindex="-1"></a>    score_RandomForest <span class="op">=</span> cross_val_score(RandomForestRegressor(max_depth <span class="op">=</span> <span class="dv">14</span>, max_features <span class="op">=</span> <span class="dv">4</span>), X , y , cv <span class="op">=</span> fold)</span>
+<span id="cb27-8"><a href="#cb27-8" aria-hidden="true" tabindex="-1"></a>    score_KNN <span class="op">=</span> cross_val_score(KNeighborsRegressor(n_neighbors <span class="op">=</span> <span class="dv">4</span>), X , y , cv <span class="op">=</span> fold)</span>
+<span id="cb27-9"><a href="#cb27-9" aria-hidden="true" tabindex="-1"></a>    score_GBoost <span class="op">=</span> cross_val_score(GradientBoostingRegressor(alpha <span class="op">=</span> <span class="fl">0.9</span>), X , y , cv <span class="op">=</span> fold)</span>
+<span id="cb27-10"><a href="#cb27-10" aria-hidden="true" tabindex="-1"></a>    score_XGBoost <span class="op">=</span> cross_val_score(XGBRegressor(eta <span class="op">=</span> <span class="fl">0.2</span>,max_depth <span class="op">=</span> <span class="dv">5</span>, reg_lambda <span class="op">=</span> <span class="dv">0</span>, gamma <span class="op">=</span> <span class="dv">0</span>), X , y , cv <span class="op">=</span> fold)</span>
+<span id="cb27-11"><a href="#cb27-11" aria-hidden="true" tabindex="-1"></a>    score_AdaBoost <span class="op">=</span> cross_val_score(AdaBoostRegressor(learning_rate <span class="op">=</span> <span class="dv">1</span>), X , y , cv <span class="op">=</span> fold)</span>
+<span id="cb27-12"><a href="#cb27-12" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb27-13"><a href="#cb27-13" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb27-14"><a href="#cb27-14" aria-hidden="true" tabindex="-1"></a>    model_name <span class="op">=</span> [<span class="st">&#39;Linear Regression&#39;</span>, <span class="st">&#39;Lasso&#39;</span>, <span class="st">&#39;Ridge&#39;</span>, <span class="st">&#39;DTR&#39;</span> , <span class="st">&#39;SVR&#39;</span> , <span class="st">&#39;Random Forest&#39;</span> , <span class="st">&#39;KNN&#39;</span>, <span class="st">&#39;Gboost&#39;</span> , <span class="st">&#39;XGBoost&#39;</span> , <span class="st">&#39;AdaBoost&#39;</span>]</span>
+<span id="cb27-15"><a href="#cb27-15" aria-hidden="true" tabindex="-1"></a>    scores <span class="op">=</span> [score_LR, score_LS, score_RD, score_DTR, score_SVR,score_RandomForest, score_KNN, score_GBoost, score_XGBoost, score_AdaBoost ]</span>
+<span id="cb27-16"><a href="#cb27-16" aria-hidden="true" tabindex="-1"></a>    result <span class="op">=</span> []</span>
+<span id="cb27-17"><a href="#cb27-17" aria-hidden="true" tabindex="-1"></a>    <span class="cf">for</span> i <span class="kw">in</span> <span class="bu">range</span>(<span class="bu">len</span>(model_name)):</span>
+<span id="cb27-18"><a href="#cb27-18" aria-hidden="true" tabindex="-1"></a>        score_mean <span class="op">=</span> np.mean(scores[i])</span>
+<span id="cb27-19"><a href="#cb27-19" aria-hidden="true" tabindex="-1"></a>        score_std <span class="op">=</span> np.std(scores[i])</span>
+<span id="cb27-20"><a href="#cb27-20" aria-hidden="true" tabindex="-1"></a>        m_name <span class="op">=</span> model_name[i]</span>
+<span id="cb27-21"><a href="#cb27-21" aria-hidden="true" tabindex="-1"></a>        temp <span class="op">=</span> [m_name , score_mean , score_std]</span>
+<span id="cb27-22"><a href="#cb27-22" aria-hidden="true" tabindex="-1"></a>        result.append(temp)</span>
+<span id="cb27-23"><a href="#cb27-23" aria-hidden="true" tabindex="-1"></a>    k_fold_df <span class="op">=</span> pd.DataFrame(result , columns <span class="op">=</span> [<span class="st">&#39;Model Name&#39;</span> , <span class="st">&#39;CV Accuracy&#39;</span> , <span class="st">&#39;CV STD&#39;</span>])</span>
+<span id="cb27-24"><a href="#cb27-24" aria-hidden="true" tabindex="-1"></a>    <span class="cf">return</span> k_fold_df.sort_values(<span class="st">&#39;CV Accuracy&#39;</span>, ascending <span class="op">=</span> <span class="va">False</span>)</span>
+<span id="cb27-25"><a href="#cb27-25" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-26"><a href="#cb27-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb27-27"><a href="#cb27-27" aria-hidden="true" tabindex="-1"></a>cv_post_hpt(pca_df.drop(<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>,axis<span class="op">=</span><span class="dv">1</span>), pca_df[<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>])</span></code></pre></div>
+<div class="output execute_result" data-execution_count="21">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Model Name</th>
+      <th>CV Accuracy</th>
+      <th>CV STD</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>7</th>
+      <td>Gboost</td>
+      <td>0.845849</td>
+      <td>0.072319</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Random Forest</td>
+      <td>0.832199</td>
+      <td>0.078844</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Lasso</td>
+      <td>0.830010</td>
+      <td>0.066349</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Ridge</td>
+      <td>0.821688</td>
+      <td>0.055219</td>
+    </tr>
+    <tr>
+      <th>0</th>
+      <td>Linear Regression</td>
+      <td>0.821388</td>
+      <td>0.067965</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>XGBoost</td>
+      <td>0.813470</td>
+      <td>0.112086</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>AdaBoost</td>
+      <td>0.791038</td>
+      <td>0.072215</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>KNN</td>
+      <td>0.698402</td>
+      <td>0.092425</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>DTR</td>
+      <td>0.687593</td>
+      <td>0.126872</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>SVR</td>
+      <td>0.656638</td>
+      <td>0.173702</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb28"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cluster Appraoch:</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>kmeans <span class="op">=</span> KMeans(n_clusters <span class="op">=</span> <span class="dv">2</span>, random_state <span class="op">=</span> <span class="dv">2</span>)</span>
+<span id="cb28-4"><a href="#cb28-4" aria-hidden="true" tabindex="-1"></a>clusters <span class="op">=</span> kmeans.fit_predict(df.drop(<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>, axis <span class="op">=</span> <span class="dv">1</span>))</span>
+<span id="cb28-5"><a href="#cb28-5" aria-hidden="true" tabindex="-1"></a>sns.scatterplot(x <span class="op">=</span> df[<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>], y <span class="op">=</span> df[<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>], hue <span class="op">=</span> clusters)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+<pre><code>&lt;Axes: xlabel=&#39;Concrete compressive strength(MPa, megapascals) &#39;, ylabel=&#39;Concrete compressive strength(MPa, megapascals) &#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img
+src="vertopal_6064d97688324472bf020f3ebe1c50af/674b7953fe114bb7a4048b158e216d8458f50433.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb30"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb30-1"><a href="#cb30-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Plotting Learning Rate </span></span>
+<span id="cb30-2"><a href="#cb30-2" aria-hidden="true" tabindex="-1"></a><span class="co"># List of models</span></span>
+<span id="cb30-3"><a href="#cb30-3" aria-hidden="true" tabindex="-1"></a>models <span class="op">=</span> {</span>
+<span id="cb30-4"><a href="#cb30-4" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Lasso&#39;</span>: Lasso(alpha<span class="op">=</span><span class="dv">1</span>),</span>
+<span id="cb30-5"><a href="#cb30-5" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;Ridge&#39;</span>: Ridge(alpha<span class="op">=</span><span class="dv">1</span>),</span>
+<span id="cb30-6"><a href="#cb30-6" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;KNN&#39;</span>: KNeighborsRegressor(n_neighbors<span class="op">=</span><span class="dv">5</span>),</span>
+<span id="cb30-7"><a href="#cb30-7" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;DTR&#39;</span>: DecisionTreeRegressor(max_depth<span class="op">=</span><span class="dv">5</span>),</span>
+<span id="cb30-8"><a href="#cb30-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;SVR&#39;</span>: SVR(C<span class="op">=</span><span class="dv">1</span>, gamma<span class="op">=</span><span class="st">&#39;scale&#39;</span>),</span>
+<span id="cb30-9"><a href="#cb30-9" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;ADBR&#39;</span>: AdaBoostRegressor(learning_rate<span class="op">=</span><span class="dv">1</span>),</span>
+<span id="cb30-10"><a href="#cb30-10" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;GBR&#39;</span>: GradientBoostingRegressor(alpha<span class="op">=</span><span class="fl">0.1</span>),</span>
+<span id="cb30-11"><a href="#cb30-11" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;XGBR&#39;</span>: XGBRegressor(eta<span class="op">=</span><span class="fl">0.1</span>, max_depth<span class="op">=</span><span class="dv">3</span>, verbosity<span class="op">=</span><span class="dv">0</span>),</span>
+<span id="cb30-12"><a href="#cb30-12" aria-hidden="true" tabindex="-1"></a>    <span class="st">&#39;RFR&#39;</span>: RandomForestRegressor(max_depth<span class="op">=</span><span class="dv">5</span>, max_features<span class="op">=</span><span class="st">&#39;sqrt&#39;</span>)</span>
+<span id="cb30-13"><a href="#cb30-13" aria-hidden="true" tabindex="-1"></a>}</span>
+<span id="cb30-14"><a href="#cb30-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-15"><a href="#cb30-15" aria-hidden="true" tabindex="-1"></a>X <span class="op">=</span> pca_df.drop(<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb30-16"><a href="#cb30-16" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> pca_df[<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>]</span>
+<span id="cb30-17"><a href="#cb30-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-18"><a href="#cb30-18" aria-hidden="true" tabindex="-1"></a><span class="co"># Plot learning curves</span></span>
+<span id="cb30-19"><a href="#cb30-19" aria-hidden="true" tabindex="-1"></a>plt.figure(figsize<span class="op">=</span>(<span class="dv">18</span>, <span class="dv">20</span>))</span>
+<span id="cb30-20"><a href="#cb30-20" aria-hidden="true" tabindex="-1"></a><span class="cf">for</span> i, (name, model) <span class="kw">in</span> <span class="bu">enumerate</span>(models.items()):</span>
+<span id="cb30-21"><a href="#cb30-21" aria-hidden="true" tabindex="-1"></a>    plt.subplot(<span class="dv">5</span>, <span class="dv">2</span>, i<span class="op">+</span><span class="dv">1</span>)</span>
+<span id="cb30-22"><a href="#cb30-22" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb30-23"><a href="#cb30-23" aria-hidden="true" tabindex="-1"></a>    train_sizes, train_scores, test_scores <span class="op">=</span> learning_curve(</span>
+<span id="cb30-24"><a href="#cb30-24" aria-hidden="true" tabindex="-1"></a>        model, X, y, cv<span class="op">=</span><span class="dv">5</span>, n_jobs<span class="op">=-</span><span class="dv">1</span>,</span>
+<span id="cb30-25"><a href="#cb30-25" aria-hidden="true" tabindex="-1"></a>        train_sizes<span class="op">=</span>np.linspace(<span class="fl">0.1</span>, <span class="fl">1.0</span>, <span class="dv">5</span>),</span>
+<span id="cb30-26"><a href="#cb30-26" aria-hidden="true" tabindex="-1"></a>        scoring<span class="op">=</span><span class="st">&#39;r2&#39;</span></span>
+<span id="cb30-27"><a href="#cb30-27" aria-hidden="true" tabindex="-1"></a>    )</span>
+<span id="cb30-28"><a href="#cb30-28" aria-hidden="true" tabindex="-1"></a>    </span>
+<span id="cb30-29"><a href="#cb30-29" aria-hidden="true" tabindex="-1"></a>    train_scores_mean <span class="op">=</span> np.mean(train_scores, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb30-30"><a href="#cb30-30" aria-hidden="true" tabindex="-1"></a>    test_scores_mean <span class="op">=</span> np.mean(test_scores, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb30-31"><a href="#cb30-31" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-32"><a href="#cb30-32" aria-hidden="true" tabindex="-1"></a>    plt.plot(train_sizes, train_scores_mean, <span class="st">&#39;o-&#39;</span>, label<span class="op">=</span><span class="st">&#39;Training score&#39;</span>)</span>
+<span id="cb30-33"><a href="#cb30-33" aria-hidden="true" tabindex="-1"></a>    plt.plot(train_sizes, test_scores_mean, <span class="st">&#39;o-&#39;</span>, label<span class="op">=</span><span class="st">&#39;Cross-validation score&#39;</span>)</span>
+<span id="cb30-34"><a href="#cb30-34" aria-hidden="true" tabindex="-1"></a>    plt.title(<span class="ss">f&#39;Learning Curve: </span><span class="sc">{</span>name<span class="sc">}</span><span class="ss">&#39;</span>)</span>
+<span id="cb30-35"><a href="#cb30-35" aria-hidden="true" tabindex="-1"></a>    plt.xlabel(<span class="st">&#39;Training Set Size&#39;</span>)</span>
+<span id="cb30-36"><a href="#cb30-36" aria-hidden="true" tabindex="-1"></a>    plt.ylabel(<span class="st">&#39;R² Score&#39;</span>)</span>
+<span id="cb30-37"><a href="#cb30-37" aria-hidden="true" tabindex="-1"></a>    plt.legend(loc<span class="op">=</span><span class="st">&#39;best&#39;</span>)</span>
+<span id="cb30-38"><a href="#cb30-38" aria-hidden="true" tabindex="-1"></a>    plt.grid()</span>
+<span id="cb30-39"><a href="#cb30-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb30-40"><a href="#cb30-40" aria-hidden="true" tabindex="-1"></a>plt.tight_layout()</span>
+<span id="cb30-41"><a href="#cb30-41" aria-hidden="true" tabindex="-1"></a>plt.show()</span></code></pre></div>
+<div class="output display_data">
+<p><img
+src="vertopal_6064d97688324472bf020f3ebe1c50af/dbd6047cd2d5dc3b4d49b2ee7f7715f906ccd782.png" /></p>
+</div>
+</div>
+<div class="cell code" data-execution_count="25">
+<div class="sourceCode" id="cb31"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Creating Our First Log</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>logging.info(<span class="st">&#39;Best Parameters Now Idenfied and model is saved as pickle file in notebook folder..&#39;</span>)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb32"><pre
+class="sourceCode python"><code class="sourceCode python"><span id="cb32-1"><a href="#cb32-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Saving Pickle Model file </span></span>
+<span id="cb32-2"><a href="#cb32-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pickle</span>
+<span id="cb32-3"><a href="#cb32-3" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-4"><a href="#cb32-4" aria-hidden="true" tabindex="-1"></a>X_pca <span class="op">=</span> pca_df.drop(<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>, axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb32-5"><a href="#cb32-5" aria-hidden="true" tabindex="-1"></a>y <span class="op">=</span> pca_df[<span class="st">&#39;Concrete compressive strength(MPa, megapascals) &#39;</span>]</span>
+<span id="cb32-6"><a href="#cb32-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-7"><a href="#cb32-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-8"><a href="#cb32-8" aria-hidden="true" tabindex="-1"></a>best_xgb <span class="op">=</span> XGBRegressor(</span>
+<span id="cb32-9"><a href="#cb32-9" aria-hidden="true" tabindex="-1"></a>    n_estimators<span class="op">=</span><span class="dv">150</span>,</span>
+<span id="cb32-10"><a href="#cb32-10" aria-hidden="true" tabindex="-1"></a>    max_depth<span class="op">=</span><span class="dv">5</span>,</span>
+<span id="cb32-11"><a href="#cb32-11" aria-hidden="true" tabindex="-1"></a>    learning_rate<span class="op">=</span><span class="fl">0.1</span>,</span>
+<span id="cb32-12"><a href="#cb32-12" aria-hidden="true" tabindex="-1"></a>    subsample<span class="op">=</span><span class="fl">0.8</span>,</span>
+<span id="cb32-13"><a href="#cb32-13" aria-hidden="true" tabindex="-1"></a>    random_state<span class="op">=</span><span class="dv">42</span></span>
+<span id="cb32-14"><a href="#cb32-14" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb32-15"><a href="#cb32-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-16"><a href="#cb32-16" aria-hidden="true" tabindex="-1"></a><span class="co"># Train on PCA data</span></span>
+<span id="cb32-17"><a href="#cb32-17" aria-hidden="true" tabindex="-1"></a>best_xgb.fit(X_pca, y)  <span class="co"># X_pca is PCA-transformed features, y is the target</span></span>
+<span id="cb32-18"><a href="#cb32-18" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-19"><a href="#cb32-19" aria-hidden="true" tabindex="-1"></a><span class="co"># Save the XGBoost model</span></span>
+<span id="cb32-20"><a href="#cb32-20" aria-hidden="true" tabindex="-1"></a><span class="cf">with</span> <span class="bu">open</span>(<span class="st">&quot;best_xgb_model.pkl&quot;</span>, <span class="st">&quot;wb&quot;</span>) <span class="im">as</span> f:</span>
+<span id="cb32-21"><a href="#cb32-21" aria-hidden="true" tabindex="-1"></a>    pickle.dump(best_xgb, f)</span>
+<span id="cb32-22"><a href="#cb32-22" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb32-23"><a href="#cb32-23" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span>(<span class="st">&quot;XGBoost model saved as &#39;best_xgb_model.pkl&#39;&quot;</span>)</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>XGBoost model saved as &#39;best_xgb_model.pkl&#39;
+</code></pre>
+</div>
+</div>
+</body>
+</html>
